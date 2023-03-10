@@ -1,6 +1,13 @@
-@media screen and (max-width:900px) and (min-width:600px) {
-    .exemplo {
-        background: yellow;
-        height: 400px;
-    }
+.flex-pai {
+    background: blue;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
 }
